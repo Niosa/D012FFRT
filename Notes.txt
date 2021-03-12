@@ -1,0 +1,1 @@
+There are 2 different assist potraits. One of them is for the assist selection menu and is slightly larger. The other, which I'm trying to label "assist2" is the slightly smaller one that is more cropped and shows up in the pre-battle screen.

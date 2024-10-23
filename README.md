@@ -1,6 +1,6 @@
 # Dissidia 012 Final Fantasy HD Enhanced Project
 
-![Logo](https://i.imgur.com/cYEq6DH.png)
+![Logo](https://i.imgur.com/ZcNjONU.png)
 ### HD Texture Mod for Dissidia 012 on the PSP v0.02
 
 This project aims to completely retexture Dissidia 012 Final Fantasy for the PSP. 

@@ -12,7 +12,7 @@ Originally, the project was going to be a solo undertaking as I spent most of th
 The philosophy behind this project is to make as much as possible by hand. Quick and dirty upscales have been done before, but I want this replacement to be THE texture pack for Dissidia 012. Any upscaling that is done is then edited by hand to remove any kind of artifacts to look as clean as possible.
 
 
-<sup>1: Some text uses the PSP's internal syste, font and to my knowledge, there is no way to upscale it.</sup>
+<sup>1: Some text uses some kind of dynamically-changing text. There may be a way to fix it, but I'm not sure.
 
 Long-term goals include finding a solution for the system font issue and maybe a way to reduce the overall size of the battle UI through hacking. Both of these things are beyond my current abilities, however.
 

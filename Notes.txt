@@ -1,1 +1,76 @@
+_____________________________________________________________________________________________
+########## General:
+_____________________________________________________________________________________________
+
 There are 2 different assist potraits. One of them is for the assist selection menu and is slightly larger. The other, which I'm trying to label "assist2" is the slightly smaller one that is more cropped and shows up in the pre-battle screen.
+
+
+
+Bold Text: FOT-MatisseEleganto Pro B
+
+Assist2 is the assist portrait in the pre-battle screen
+
+
+
+
+
+_____________________________________________________________________________________________
+########## Naming Scheme:
+_____________________________________________________________________________________________
+
+I am slowly working towards a consistent naming scheme for increased readability. Not everything has been switched over yet, but I'm planning to eventually bring everything in line.
+Here's a guide to Cloud for understanding:
+
+
+Character Select Right Side Artwork - cloudmenuport
+
+Character Select Icon - cloudicon
+
+Customization Menu Assist Portrait - cloudassist
+
+Pre-Battle Setup Screen - cloudprebattle
+
+Normal Battle UI Portrait - cloudbattleportn
+Alt 1 Battle UI Portrait - cloudbattleportalt1
+Alt 2 Battle UI Portrait - cloudbattleportalt2
+DLC 1 Battle UI Portrait - cloudbattleportdlc1
+
+Cloud Normal Battle Model Texture 1 Variation 1 - cloudmodeln1a
+Cloud Normal Battle Model Texture 1 Variation 2 - cloudmodeln1b
+Cloud Normal Battle Model Texture 1 Variation 3 - cloudmodeln1c
+Cloud Normal Battle Model Texture 1 Variation 4 - cloudmodeln1d
+Cloud Normal Battle Model Texture 1 Variation 5 - cloudmodeln1e
+
+Cloud Normal Battle Model Texture 2 - cloudmodeln2a
+
+Cloud Normal Battle Model Texture 3 - cloudmodeln2a
+
+(Variations are facial expressions and mouth movements, usually)
+
+
+_____________________________________________________________________________________________
+########## Texture-Specific:
+_____________________________________________________________________________________________
+
+
+This is the texture where the alphabet is stored for special abilities (Like summons, etc.)
+00000000f0c1881b01fb4391 = ui/textlist.png
+
+
+
+_____________________________________________________________________________________________
+########## Known Issues:
+_____________________________________________________________________________________________
+
+I don't believe there's a way to smooth out the gradient over the HP bar. Seems like it's some kind of engine thing, maybe? I'm also not entirely sure HOW this game handles gradients so any modifications I've done to them are hacky at best. If you look at ui/battleuihp2.png you'll find that the little gray arrows are what controls the HP bar and its respective gradient(ish?).
+
+
+
+
+Some text just simply can't be replaced with any methods I know of. It seems as though the game generates a new hash every time dynamic text appears. (Dynamic in this case meaning any text that isn't absolutely stationary, meaning anything that is on a moving menu or that can be scrolled/animated in some way on the screen).
+
+I'm thinking there's probably some kind of hash range you could find for each of these instances of text, but I don't really have the technical knowledge, nor do I feel like it'd be worth it in the end because of the sheer volume of text I'd have to sift through and painstakingly replace one by one. I REALLY wish this game used just a font lmao
+
+
+
+

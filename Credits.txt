@@ -1,9 +1,13 @@
 Original Textures by:
 Niosai
 
-
+Alternate HUD Icons Partially Sourced From https://kenney.nl/assets/input-prompts
 
 
 Artwork Credits:
 ajb3art (https://www.deviantart.com/ajb3art)
 eldi13 (Chaos and Cosmos Logos) (https://www.deviantart.com/eldi13)
+
+Support:
+
+Rozalin
